@@ -25,7 +25,7 @@ class DatabaseSeeder extends Seeder
 
         // Optionally, set additional properties or create related entities specific to this company
         $adminUser->ownedCompanies->first()->update([
-            'name' => 'ERPSAAS',
+            'name' => 'TSM',
             'created_at' => now(),
         ]);
     }
